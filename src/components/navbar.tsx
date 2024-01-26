@@ -2,17 +2,18 @@
 
 import Link from "next/link";
 import { Joti_One, Montserrat } from "next/font/google";
+import CallToAction from "./call-to-action";
 
 const jotiOne = Joti_One({ weight: "400", subsets: ["latin"] });
 const montserrat = Montserrat({ weight: "600", subsets: ["latin"] });
 
 const links = [
-  { name: "About", href: "/#about", number: "01" },
-  { name: "Experience", href: "/#experience", number: "02" },
-  { name: "Work", href: "/#work", number: "03" },
-  { name: "Services", href: "/#services", number: "04" },
-  { name: "Testimonials", href: "/#testimonials", number: "05" },
-  { name: "Get in touch", href: "/#get-in-touch", number: "06" },
+  { name: "About", href: "/#about", number: "01." },
+  { name: "Experience", href: "/#experience", number: "02." },
+  { name: "Work", href: "/#work", number: "03." },
+  { name: "Services", href: "/#services", number: "04." },
+  { name: "Testimonials", href: "/#testimonials", number: "05." },
+  { name: "Get in touch", href: "/#get-in-touch", number: "06." },
 ];
 
 export default function Navbar() {
@@ -38,9 +39,7 @@ export default function Navbar() {
           </Link>
         ))}
       </div>
-      <div className="px-4 py-3 border-foreground border-2 rounded-lg capitalize text-foreground font-semibold">
-        Resume
-      </div>
+      <CallToAction text="Resume" />
     </nav>
   );
 }

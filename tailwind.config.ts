@@ -16,6 +16,9 @@ const config: Config = {
         "light-200": "#B7B7B7",
         "light-300": "#9D9D9D",
       },
+      boxShadow: {
+        "3xl": "rgb(6, 21, 42) 14px 14px, rgb(63, 250, 86) 16px 16px",
+      },
     },
   },
   plugins: [],

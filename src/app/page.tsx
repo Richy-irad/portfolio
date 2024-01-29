@@ -110,7 +110,7 @@ export default function Home() {
               className="shadow-3xl grow-0 shrink-0 rounded-lg"
             />
           </div>
-          <div className="flex w-full justify-end">
+          <div id="experience" className="flex w-full justify-end">
             <div className="flex flex-col basis-full items-start lg:basis-5/6 gap-y-12">
               <div className="flex gap-4 items-center w-full">
                 <h2 className="text-[32px] font-bold space-x-3 shrink-0">

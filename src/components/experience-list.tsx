@@ -85,7 +85,7 @@ export default function Experience() {
                       @{experience.company}.
                     </span>
                   </h3>
-                  <small className="capitalize">
+                  <small className="text-light-200 capitalize">
                     {experience.start} - {experience.end}
                   </small>
                 </div>

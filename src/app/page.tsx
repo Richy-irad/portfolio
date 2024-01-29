@@ -3,6 +3,8 @@ import CallToAction from "@/components/call-to-action";
 import { Montserrat } from "next/font/google";
 import { ChevronRightIcon } from "@heroicons/react/24/outline";
 
+import Experience from "@/components/experience-list";
+
 const montserrat = Montserrat({ weight: "600", subsets: ["latin"] });
 
 export default function Home() {
@@ -107,6 +109,22 @@ export default function Home() {
               alt="hero image"
               className="shadow-3xl grow-0 shrink-0 rounded-lg"
             />
+          </div>
+          <div className="flex w-full justify-end">
+            <div className="flex flex-col basis-full items-start lg:basis-5/6 gap-y-12">
+              <div className="flex gap-4 items-center w-full">
+                <h2 className="text-[32px] font-bold space-x-3 shrink-0">
+                  <span className={`${montserrat.className} text-foreground`}>
+                    02.
+                  </span>
+                  <span className="text-light-100 capitalize">
+                    where i've worked
+                  </span>
+                </h2>
+                <hr className="bg-light-300 w-full" />
+              </div>
+              <Experience />
+            </div>
           </div>
         </div>
       </div>

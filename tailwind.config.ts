@@ -19,6 +19,9 @@ const config: Config = {
       boxShadow: {
         "3xl": "rgb(6, 21, 42) 14px 14px, rgb(63, 250, 86) 16px 16px",
       },
+      borderWidth: {
+        0.5: "0.5px",
+      },
     },
   },
   plugins: [],

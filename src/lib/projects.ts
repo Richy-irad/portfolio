@@ -8,10 +8,10 @@ export const projects = [
     stack: ["django", "JavaScript", "tailwind CSS", "django channels"],
   },
   {
-    name: "kicstoms",
+    name: "kicstoms applications",
     description:
       "kicstoms applications that are meant for business of selling sneakers. Kicstoms offers 2 applications. An ecommerce platform for buying sneakers, and a Seller central application for sellers.",
-    imageUrl: "",
+    imageUrl: "/kicstoms-thumbnail.png",
     year: "2022",
     stack: ["django", "django rest framework", "reactJs", "redux", "algolia"],
   },
@@ -26,7 +26,8 @@ export const projects = [
   },
   {
     name: "managed wellness center",
-    description: "managed wellness center offers psychologist services. It leverages the flexibility of Next.js and Sanity.io for content management.",
+    description:
+      "managed wellness center offers psychologist services. It leverages the flexibility of Next.js and Sanity.io for content management.",
     imageUrl: "/managed-wellness-thumbnail.png",
     year: "2023",
     stack: ["next.js", "tailwind CSS", "sanity.io"],

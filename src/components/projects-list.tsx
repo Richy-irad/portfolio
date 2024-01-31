@@ -21,7 +21,7 @@ export default function ProjectsList() {
               </div>
               <div className="basis-5/12 flex flex-col gap-5 items-end text-end">
                 <div className="space-y-2">
-                  <h4 className="text-foreground capitalize">
+                  <h4 className="text-foreground capitalize text-sm font-medium">
                     featured project
                   </h4>
                   <h3 className="text-light-100 text-[28px] font-semibold capitalize">
@@ -47,7 +47,7 @@ export default function ProjectsList() {
             <>
               <div className="basis-5/12 flex flex-col gap-5 items-start">
                 <div className="space-y-2">
-                  <h4 className="text-foreground capitalize">
+                  <h4 className="text-foreground capitalize text-sm font-medium">
                     featured project
                   </h4>
                   <h3 className="text-light-100 text-[28px] font-semibold capitalize">

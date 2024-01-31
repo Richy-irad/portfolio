@@ -5,6 +5,8 @@ import { ChevronRightIcon } from "@heroicons/react/24/outline";
 
 import Experience from "@/components/experience-list";
 import ProjectsList from "@/components/projects-list";
+import ServicesList from "@/components/services-list";
+
 const montserrat = Montserrat({ weight: "600", subsets: ["latin"] });
 
 export default function Home() {
@@ -161,6 +163,7 @@ export default function Home() {
               </h1>
               <hr className="bg-light-300 w-full" />
             </div>
+            <ServicesList />
           </div>
         </div>
         {/* testimonials */}

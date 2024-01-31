@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         "background-100": "#06152A",
         "background-200": "#1F2A3E",
+        "background-secondary": "#142B01",
         foreground: "#3FFA56",
         "light-100": "#F4F4F4",
         "light-200": "#B7B7B7",

@@ -4,7 +4,7 @@ import { Montserrat } from "next/font/google";
 import { ChevronRightIcon } from "@heroicons/react/24/outline";
 
 import Experience from "@/components/experience-list";
-
+import ProjectsList from "@/components/projects-list";
 const montserrat = Montserrat({ weight: "600", subsets: ["latin"] });
 
 export default function Home() {
@@ -128,15 +128,73 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-y-24 items-start">
+      <div className="flex flex-col gap-y-24 items-start mt-60">
         {/* projects */}
-        <div id="projects"></div>
+        <div id="work" className="flex flex-col gap-12 w-full">
+          <div className="flex gap-4 items-center w-full">
+            <h1 className="text-[40px] font-bold space-x-3 shrink-0">
+              <span className={`${montserrat.className} text-foreground`}>
+                03.
+              </span>
+              <span className="text-light-100 capitalize">
+                some of the things i've built
+              </span>
+            </h1>
+            <hr className="bg-light-300 w-full" />
+          </div>
+          <ProjectsList />
+          <div className="self-center">
+            <CallToAction text="View all projects" />
+          </div>
+        </div>
         {/* services */}
-        <div id="services"></div>
+        <div id="services" className="w-full">
+          <div id="work" className="flex flex-col gap-12 w-full">
+            <div className="flex gap-4 items-center w-full">
+              <h1 className="text-[40px] font-bold space-x-3 shrink-0">
+                <span className={`${montserrat.className} text-foreground`}>
+                  04.
+                </span>
+                <span className="text-light-100 capitalize">
+                  what i can do for you
+                </span>
+              </h1>
+              <hr className="bg-light-300 w-full" />
+            </div>
+          </div>
+        </div>
         {/* testimonials */}
-        <div id="testimonials"></div>
+        <div id="testimonials" className="w-full">
+          <div id="work" className="flex flex-col gap-12 w-full">
+            <div className="flex gap-4 items-center w-full">
+              <h1 className="text-[40px] font-bold space-x-3 shrink-0">
+                <span className={`${montserrat.className} text-foreground`}>
+                  05.
+                </span>
+                <span className="text-light-100 capitalize">
+                  what clients have said about me
+                </span>
+              </h1>
+              <hr className="bg-light-300 w-full" />
+            </div>
+          </div>
+        </div>
         {/* get in touch */}
-        <div id="get-in-touch"></div>
+        <div id="get-in-touch" className="w-full">
+          <div id="work" className="flex flex-col gap-12 w-full">
+            <div className="flex gap-4 items-center w-full">
+              <h1 className="text-[40px] font-bold space-x-3 shrink-0">
+                <span className={`${montserrat.className} text-foreground`}>
+                  06.
+                </span>
+                <span className="text-light-100 capitalize">
+                  get in touch with me
+                </span>
+              </h1>
+              <hr className="bg-light-300 w-full" />
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );

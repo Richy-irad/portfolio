@@ -8,7 +8,7 @@ import clsx from "clsx";
 const experiences = [
   {
     company: "kicstoms sneakers ltd",
-    role: "lead software engineer",
+    role: "lead engineer",
     start: "jun 2020",
     end: "oct 2023",
     duties: [
@@ -53,14 +53,14 @@ const experiences = [
 export default function Experience() {
   return (
     <Tab.Group vertical>
-      <div className="flex gap-5">
-        <Tab.List className="basis 1/4 grow-0 shrink-0 flex flex-col items-start">
+      <div className="flex gap-5 w-full grow-0">
+        <Tab.List className="basis-1/4 grow-0 shrink-0 flex flex-col">
           {experiences.map((experience, index) => (
             <Tab key={index} as={Fragment}>
               {({ selected }) => (
                 <button
                   className={clsx(
-                    "capitalize px-7 py-4 hover:bg-background-200 outline-none",
+                    "capitalize px-7 py-4 hover:bg-background-200 outline-none text-start w-full",
                     {
                       "text-foreground border-l-4 border-foreground": selected,
                       "border-l-0.5 border-light-300": !selected,
@@ -73,7 +73,7 @@ export default function Experience() {
             </Tab>
           ))}
         </Tab.List>
-        <Tab.Panels>
+        <Tab.Panels className="basis-3/4 shrink-0">
           {experiences.map((experience, index) => (
             <Tab.Panel key={index}>
               <div className="flex flex-col gap-6">
@@ -82,7 +82,7 @@ export default function Experience() {
                     <span className="text-light-100">{experience.role}</span>
                     <span className="text-foreground">
                       {" "}
-                      @{experience.company}.
+                      @ {experience.company}.
                     </span>
                   </h3>
                   <small className="text-light-200 capitalize">

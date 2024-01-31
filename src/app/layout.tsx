@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`bg-background-100 text-light-300 ${inter.className}`}>
         <Navbar />
-        <main className="mx-5 md:mx-10 lg:mx-60 xl:mx-80 h-fit">{children}</main>
+        <main className="mx-5 md:mx-10 lg:mx-60 2xl:mx-80 h-fit">{children}</main>
       </body>
     </html>
   );

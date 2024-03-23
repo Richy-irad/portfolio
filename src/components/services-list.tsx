@@ -44,7 +44,10 @@ export default function ServicesList() {
   return (
     <div className="flex flex-wrap gap-5 w-full">
       {services.map((service, index) => (
-        <div className="basis-1/4 grow bg-background-200 px-7 py-6 rounded-lg flex flex-col gap-y-9">
+        <div
+          key={index}
+          className="basis-1/4 grow bg-background-200 px-7 py-6 rounded-lg flex flex-col gap-y-9"
+        >
           <div className="flex items-start gap-4">
             {service.icon}
             <span className="text-light-200 capitalize font-bold text-[20px]">

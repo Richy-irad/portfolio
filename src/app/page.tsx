@@ -14,7 +14,7 @@ export default function Home() {
     <>
       {/* the hero section */}
       {/* occupies min-device heigt */}
-      <div className="min-h-screen h-full flex flex-col items-center justify-center">
+      <div className="min-h-screen h-full flex flex-col items-center justify-center snap-center">
         <div className="flex flex-col gap-12 w-full items-start">
           <div className="flex flex-col gap-5">
             <h6 className="text-foreground">Hi, my name is</h6>
@@ -38,7 +38,7 @@ export default function Home() {
           <CallToAction text="Work with me" />
         </div>
       </div>
-      <div id="about">
+      <div id="about" className="scroll-pt-8 snap-center">
         <div className="flex flex-col gap-12 items-start">
           <div className="flex gap-4 items-center w-1/2">
             <h1 className="text-[40px] font-bold space-x-3 shrink-0">
@@ -47,7 +47,7 @@ export default function Home() {
               </span>
               <span className="text-light-100 capitalize">about me</span>
             </h1>
-            <hr className="bg-light-300 w-full" />
+            <hr className="bg-light-300 w-64" />
           </div>
           <div className="flex lg:gap-28 items-start">
             <div className="flex flex-col gap-6 items-start grow">
@@ -104,13 +104,15 @@ export default function Home() {
               </div>
             </div>
             {/* the image */}
-            <Image
-              src="/hero-image.jpg"
-              width={320}
-              height={320}
-              alt="hero image"
-              className="shadow-3xl grow-0 shrink-0 rounded-lg"
-            />
+            <div className="h-80 w-80 grow-0 shrink-0">
+              <Image
+                src="/hero-image.jpg"
+                width={1000}
+                height={1000}
+                alt="hero image"
+                className="shadow-3xl rounded-lg h-full w-full object-cover object-center"
+              />
+            </div>
           </div>
           <div id="experience" className="flex w-full justify-end">
             <div className="flex flex-col basis-full items-start lg:basis-5/6 gap-y-12">
@@ -123,14 +125,14 @@ export default function Home() {
                     where i've worked
                   </span>
                 </h2>
-                <hr className="bg-light-300 w-full" />
+                <hr className="bg-light-300 w-64" />
               </div>
               <Experience />
             </div>
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-y-24 items-start mt-60">
+      <div className="flex flex-col gap-y-24 items-start mt-60 scroll-pt-8 snap-start">
         {/* projects */}
         <div id="work" className="flex flex-col gap-12 w-full">
           <div className="flex gap-4 items-center w-full">
@@ -142,7 +144,7 @@ export default function Home() {
                 some of the things i've built
               </span>
             </h1>
-            <hr className="bg-light-300 w-full" />
+            <hr className="bg-light-300 w-64" />
           </div>
           <ProjectsList />
           <div className="self-center">
@@ -150,7 +152,7 @@ export default function Home() {
           </div>
         </div>
         {/* services */}
-        <div id="services" className="w-full">
+        <div id="services" className="w-full snap-center">
           <div id="work" className="flex flex-col gap-12 w-full">
             <div className="flex gap-4 items-center w-full">
               <h1 className="text-[40px] font-bold space-x-3 shrink-0">
@@ -161,13 +163,13 @@ export default function Home() {
                   what i can do for you
                 </span>
               </h1>
-              <hr className="bg-light-300 w-full" />
+              <hr className="bg-light-300 w-64" />
             </div>
             <ServicesList />
           </div>
         </div>
         {/* testimonials */}
-        <div id="testimonials" className="w-full">
+        {/* <div id="testimonials" className="w-full">
           <div id="work" className="flex flex-col gap-12 w-full">
             <div className="flex gap-4 items-center w-full">
               <h1 className="text-[40px] font-bold space-x-3 shrink-0">
@@ -178,24 +180,24 @@ export default function Home() {
                   what clients have said about me
                 </span>
               </h1>
-              <hr className="bg-light-300 w-full" />
+              <hr className="bg-light-300 w-64" />
             </div>
           </div>
-        </div>
+        </div> */}
         {/* get in touch */}
-        <div id="get-in-touch" className="w-full">
-          <div id="work" className="flex flex-col gap-12 w-full">
-            <div className="flex gap-4 items-center w-full">
-              <h1 className="text-[40px] font-bold space-x-3 shrink-0">
-                <span className={`${montserrat.className} text-foreground`}>
-                  06.
-                </span>
-                <span className="text-light-100 capitalize">
-                  get in touch with me
-                </span>
+        <div id="get-in-touch" className="w-full snap-end">
+          <div id="work" className="flex items-center flex-col gap-12 w-full">
+            <div className="flex flex-col gap-4 items-center">
+              <h6 className="text-foreground">05. What&apos;s next</h6>
+              <h1 className="text-[40px] font-bold shrink-0 text-light-100 capitalize">
+                get in touch
               </h1>
-              <hr className="bg-light-300 w-full" />
+              <p className="lg:w-1/2 text-center">
+                I warmly welcome any inquiries or communication from those
+                seeking to connect. Please feel free to reach out at any time.
+              </p>
             </div>
+            <CallToAction text="Say Hello!" />
           </div>
         </div>
       </div>

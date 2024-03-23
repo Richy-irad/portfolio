@@ -12,8 +12,8 @@ const links = [
   { name: "Experience", href: "/#experience", number: "02." },
   { name: "Work", href: "/#work", number: "03." },
   { name: "Services", href: "/#services", number: "04." },
-  { name: "Testimonials", href: "/#testimonials", number: "05." },
-  { name: "Get in touch", href: "/#get-in-touch", number: "06." },
+  // { name: "Testimonials", href: "/#testimonials", number: "05." },
+  { name: "Get in touch", href: "/#get-in-touch", number: "05." },
 ];
 
 export default function Navbar() {

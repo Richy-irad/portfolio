@@ -23,6 +23,9 @@ const config: Config = {
       borderWidth: {
         0.5: "0.5px",
       },
+      outlineWidth: {
+        0.5: "0.5px",
+      },
     },
   },
   plugins: [],

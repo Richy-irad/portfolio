@@ -18,7 +18,7 @@ const links = [
 
 export default function Navbar() {
   return (
-    <nav className="w-100 flex items-center justify-between px-20 py-7">
+    <nav className="w-100 flex items-center justify-between px-20 py-7 snap-start">
       <Link
         href="/"
         className={`${jotiOne.className} text-foreground text-4xl uppercase`}
@@ -39,7 +39,7 @@ export default function Navbar() {
           </Link>
         ))}
       </div>
-      <CallToAction text="Resume" />
+      <CallToAction text="Resume" href="/" />
     </nav>
   );
 }

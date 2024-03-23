@@ -6,6 +6,7 @@ export const projects = [
     imageUrl: "/guide-limited-thumbnail.png",
     year: "2023",
     stack: ["django", "JavaScript", "tailwind CSS", "django channels"],
+    link: "www.guide-limited.com",
   },
   {
     name: "kicstoms applications",
@@ -14,6 +15,7 @@ export const projects = [
     imageUrl: "/kicstoms-thumbnail.png",
     year: "2022",
     stack: ["django", "django rest framework", "reactJs", "redux", "algolia"],
+    link: "www.kicstoms.com",
   },
   {
     name: "autism lifestyle",
@@ -23,6 +25,7 @@ export const projects = [
     imageUrl: "/autism-lifestyle-thumbnail.png",
     year: "2023",
     stack: ["next.js", "tailwind CSS", "sanity.io"],
+    link: "www.autismlifestyle.org",
   },
   {
     name: "managed wellness center",
@@ -31,6 +34,7 @@ export const projects = [
     imageUrl: "/managed-wellness-thumbnail.png",
     year: "2023",
     stack: ["next.js", "tailwind CSS", "sanity.io"],
+    link: "www.managedwellness.fit",
   },
   {
     name: "richard iradukunda",
@@ -38,6 +42,7 @@ export const projects = [
     imageUrl: "/portfolio-thumbnail.jpg",
     year: "2024",
     stack: ["next.js", "tailwind CSS"],
+    link: "www.richardiradukunda.com",
   },
   {
     name: "uniplat",

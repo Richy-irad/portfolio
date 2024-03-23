@@ -35,7 +35,10 @@ export default function Home() {
               to their success.
             </p>
           </div>
-          <CallToAction text="Work with me" />
+          <CallToAction
+            text="Work with me"
+            href="mailto:iradukundadushime@gmail.com"
+          />
         </div>
       </div>
       <div id="about" className="scroll-pt-8 snap-center">
@@ -148,7 +151,7 @@ export default function Home() {
           </div>
           <ProjectsList />
           <div className="self-center">
-            <CallToAction text="View all projects" />
+            <CallToAction text="View all projects" href="/projects" />
           </div>
         </div>
         {/* services */}
@@ -197,7 +200,10 @@ export default function Home() {
                 seeking to connect. Please feel free to reach out at any time.
               </p>
             </div>
-            <CallToAction text="Say Hello!" />
+            <CallToAction
+              text="Say Hello!"
+              href="mailto:iradukundadushime@gmail.com"
+            />
           </div>
         </div>
       </div>

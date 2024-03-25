@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { Joti_One, Montserrat } from "next/font/google";
-import CallToAction from "./call-to-action";
 
 const jotiOne = Joti_One({ weight: "400", subsets: ["latin"] });
 const montserrat = Montserrat({ weight: "600", subsets: ["latin"] });
@@ -18,14 +17,14 @@ const links = [
 
 export default function Navbar() {
   return (
-    <nav className="w-100 flex items-center justify-between px-20 py-7 snap-start">
+    <nav className="w-full flex items-center justify-between px-5 md:px-10 lg:px-20 py-7 snap-start">
       <Link
         href="/"
         className={`${jotiOne.className} text-foreground text-4xl uppercase`}
       >
         RI
       </Link>
-      <div className="flex gap-x-8 items-center">
+      <div className="hidden lg:flex gap-x-8 items-center">
         {links.map((link, index) => (
           <Link
             key={index}
@@ -42,7 +41,7 @@ export default function Navbar() {
       <Link
         href="/resume.pdf"
         target="_blank"
-        className="px-4 py-3 border-foreground border-2 rounded-lg capitalize text-foreground font-semibold"
+        className="hidden lg:flex px-4 py-3 border-foreground border-2 rounded-lg capitalize text-foreground font-semibold"
       >
         resume
       </Link>

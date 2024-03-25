@@ -1,5 +1,8 @@
+"use client";
+
 import Link from "next/link";
 import { projects } from "@/lib/projects";
+import { ArrowSquareOut } from "@phosphor-icons/react";
 
 export default function Projects() {
   // sort the projects based on year
@@ -16,7 +19,9 @@ export default function Projects() {
           <tr>
             <th className="text-start text-lg">Year</th>
             <th className="text-start text-lg">Title</th>
-            <th className="text-start text-lg">Made with</th>
+            <th className="hidden xl:table-cell text-start text-lg">
+              Made with
+            </th>
             <th className="text-start text-lg">Link</th>
           </tr>
         </thead>
@@ -29,7 +34,7 @@ export default function Projects() {
               <td className="text-white font-semibold text-start capitalize py-4 group-hover:background-200">
                 {project.name}
               </td>
-              <td className="py-4 flex gap-2 flex-wrap w-96 group-hover:background-200">
+              <td className="hidden xl:flex py-4 gap-2 flex-wrap w-96 group-hover:background-200">
                 {project.stack.map((item, index) => (
                   <span
                     key={index}
@@ -44,9 +49,10 @@ export default function Projects() {
                   <Link
                     target="_blank"
                     href={project.link}
-                    className="hover:text-foreground"
+                    className="flex gap-2 items-center hover:text-foreground"
                   >
-                    {project.link}
+                    <span className="hidden lg:flex">{project.link}</span>
+                    <ArrowSquareOut size={20} />
                   </Link>
                 )}
               </td>

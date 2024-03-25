@@ -53,17 +53,19 @@ const experiences = [
 export default function Experience() {
   return (
     <Tab.Group vertical>
-      <div className="flex gap-5 w-full grow-0">
-        <Tab.List className="basis-1/4 grow-0 shrink-0 flex flex-col">
+      <div className="flex flex-col lg:flex-row gap-5 w-full grow-0">
+        <Tab.List className="basis-full lg:basis-1/4 lg:grow-0 lg:shrink-0 flex flex-row lg:flex-col">
           {experiences.map((experience, index) => (
             <Tab key={index} as={Fragment}>
               {({ selected }) => (
                 <button
                   className={clsx(
-                    "capitalize px-7 py-4 hover:bg-background-200 outline-none text-start w-full",
+                    "capitalize py-3.5 px-2 lg:px-7 lg:py-4 hover:bg-background-200 outline-none text-start w-full",
                     {
-                      "text-foreground border-l-4 border-foreground": selected,
-                      "border-l-0.5 border-light-300": !selected,
+                      "text-foreground border-b-4  border-l-0 lg:border-b-0 lg:border-l-4 border-foreground":
+                        selected,
+                      "border-b-0.5 border-l-0 lg:border-b-0 lg:border-l-0.5 border-light-300":
+                        !selected,
                     }
                   )}
                 >
@@ -73,12 +75,12 @@ export default function Experience() {
             </Tab>
           ))}
         </Tab.List>
-        <Tab.Panels className="basis-3/4 shrink-0">
+        <Tab.Panels className="basis-full lg:basis-3/4 shrink-0">
           {experiences.map((experience, index) => (
             <Tab.Panel key={index}>
               <div className="flex flex-col gap-6">
                 <div className="flex flex-col gap-2">
-                  <h3 className="text-[28px] capitalize">
+                  <h3 className="text-xl lg:text-[28px] capitalize">
                     <span className="text-light-100">{experience.role}</span>
                     <span className="text-foreground">
                       {" "}

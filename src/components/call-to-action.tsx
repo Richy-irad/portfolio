@@ -11,7 +11,7 @@ export default function CallToAction({
     <Link
       href={href}
       type="button"
-      className="px-4 py-3 border-foreground border-2 rounded-lg capitalize text-foreground font-semibold"
+      className="px-4 py-3 border-foreground border-2 rounded-lg capitalize text-foreground font-semibold text-sm lg:text-base"
     >
       {text}
     </Link>

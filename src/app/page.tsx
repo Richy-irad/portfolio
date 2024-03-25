@@ -19,10 +19,10 @@ export default function Home() {
           <div className="flex flex-col gap-5">
             <h6 className="text-foreground">Hi, my name is</h6>
             <div className="font-bold">
-              <h1 className="text-light-100 text-[64px] capitalize leading-tight">
+              <h1 className="text-light-100 text-4xl lg:text-[64px] capitalize leading-tight">
                 richard iradukunda.
               </h1>
-              <h2 className="text-light-20 text-[64px] leading-tight">
+              <h2 className="text-light-20 text-4xl lg:text-[64px] leading-tight">
                 I engineer full-stack solutions.
               </h2>
             </div>
@@ -42,17 +42,17 @@ export default function Home() {
         </div>
       </div>
       <div id="about" className="scroll-pt-8 snap-center">
-        <div className="flex flex-col gap-12 items-start">
+        <div className="flex flex-col gap-8 lg:gap-12 items-start">
           <div className="flex gap-4 items-center w-1/2">
-            <h1 className="text-[40px] font-bold space-x-3 shrink-0">
+            <h1 className="text-2xl lg:text-[40px] font-bold space-x-3 shrink-0">
               <span className={`${montserrat.className} text-foreground`}>
                 01.
               </span>
               <span className="text-light-100 capitalize">about me</span>
             </h1>
-            <hr className="bg-light-300 w-64" />
+            <hr className="lg:bg-light-300 lg:w-64" />
           </div>
-          <div className="flex lg:gap-28 items-start">
+          <div className="flex flex-col lg:flex-row lg:gap-16 2xl:gap-28 items-start">
             <div className="flex flex-col gap-6 items-start grow">
               <p>
                 Greetings! I'm Richard Dushime Iradukunda, a full-stack web
@@ -75,7 +75,7 @@ export default function Home() {
                 interactive experiences!
               </p>
               <p>Here are some of the technologies I have been working with:</p>
-              <div className="flex gap-12">
+              <div className="flex gap-12 pb-4 lg:pb-0">
                 <div className="flex flex-col gap-3">
                   <div className="flex gap-3 items-center">
                     <ChevronRightIcon className="w-3 h-3 text-foreground" />
@@ -118,9 +118,9 @@ export default function Home() {
             </div>
           </div>
           <div id="experience" className="flex w-full justify-end">
-            <div className="flex flex-col basis-full items-start lg:basis-5/6 gap-y-12">
+            <div className="flex flex-col items-start basis-full lg:basis-5/6 gap-y-6 lg:gap-y-12">
               <div className="flex gap-4 items-center w-full">
-                <h2 className="text-[32px] font-bold space-x-3 shrink-0">
+                <h2 className="text-xl lg:text-[32px] font-bold space-x-3 shrink-0">
                   <span className={`${montserrat.className} text-foreground`}>
                     02.
                   </span>
@@ -128,18 +128,18 @@ export default function Home() {
                     where i've worked
                   </span>
                 </h2>
-                <hr className="bg-light-300 w-64" />
+                <hr className="lg:bg-light-300 lg:w-64" />
               </div>
               <Experience />
             </div>
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-y-24 items-start mt-60 scroll-pt-8 snap-start">
+      <div className="flex flex-col gap-y-24 items-start mt-16 lg:mt-60 scroll-pt-8 snap-start">
         {/* projects */}
         <div id="work" className="flex flex-col gap-12 w-full">
           <div className="flex gap-4 items-center w-full">
-            <h1 className="text-[40px] font-bold space-x-3 shrink-0">
+            <h1 className="text-2xl lg:text-[40px] font-bold space-x-3 shrink-0 w-full">
               <span className={`${montserrat.className} text-foreground`}>
                 03.
               </span>
@@ -147,7 +147,7 @@ export default function Home() {
                 some of the things i've built
               </span>
             </h1>
-            <hr className="bg-light-300 w-64" />
+            <hr className="lg:bg-light-300 lg:w-64" />
           </div>
           <ProjectsList />
           <div className="self-center">
@@ -158,7 +158,7 @@ export default function Home() {
         <div id="services" className="w-full snap-center">
           <div id="work" className="flex flex-col gap-12 w-full">
             <div className="flex gap-4 items-center w-full">
-              <h1 className="text-[40px] font-bold space-x-3 shrink-0">
+              <h1 className="text-2xl lg:text-[40px] font-bold space-x-3 shrink-0">
                 <span className={`${montserrat.className} text-foreground`}>
                   04.
                 </span>
@@ -166,7 +166,7 @@ export default function Home() {
                   what i can do for you
                 </span>
               </h1>
-              <hr className="bg-light-300 w-64" />
+              <hr className="lg:bg-light-300 lg:w-64" />
             </div>
             <ServicesList />
           </div>
@@ -175,7 +175,7 @@ export default function Home() {
         {/* <div id="testimonials" className="w-full">
           <div id="work" className="flex flex-col gap-12 w-full">
             <div className="flex gap-4 items-center w-full">
-              <h1 className="text-[40px] font-bold space-x-3 shrink-0">
+              <h1 className="text-2xl lg:text-[40px] font-bold space-x-3 shrink-0">
                 <span className={`${montserrat.className} text-foreground`}>
                   05.
                 </span>
@@ -183,7 +183,7 @@ export default function Home() {
                   what clients have said about me
                 </span>
               </h1>
-              <hr className="bg-light-300 w-64" />
+              <hr className="lg:bg-light-300 lg:w-64" />
             </div>
           </div>
         </div> */}

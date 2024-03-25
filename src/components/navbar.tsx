@@ -39,7 +39,13 @@ export default function Navbar() {
           </Link>
         ))}
       </div>
-      <CallToAction text="Resume" href="/" />
+      <Link
+        href="/resume.pdf"
+        target="_blank"
+        className="px-4 py-3 border-foreground border-2 rounded-lg capitalize text-foreground font-semibold"
+      >
+        resume
+      </Link>
     </nav>
   );
 }

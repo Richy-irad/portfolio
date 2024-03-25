@@ -2,6 +2,10 @@ import Link from "next/link";
 import { projects } from "@/lib/projects";
 
 export default function Projects() {
+  // sort the projects based on year
+  const sortedProjects = projects.sort((a, b) => {
+    return b.year - a.year;
+  });
   return (
     <div className="flex flex-col gap-12">
       <h1 className="text-white font-bold text-[40px] capitalize">
@@ -17,7 +21,7 @@ export default function Projects() {
           </tr>
         </thead>
         <tbody>
-          {projects.map((project, index) => (
+          {sortedProjects.map((project, index) => (
             <tr key={index} className="group">
               <td className="text-foreground text-start py-4 group-hover:background-200">
                 {project.year}

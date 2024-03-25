@@ -55,7 +55,7 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row lg:gap-16 2xl:gap-28 items-start">
             <div className="flex flex-col gap-6 items-start grow">
               <p>
-                Greetings! I'm Richard Dushime Iradukunda, a full-stack web
+                Greetings! I&apos;m Richard Dushime Iradukunda, a full-stack web
                 developer happily calling Montreal, Canada, my home. My journey
                 into the world of programming began in 2015 during the final
                 stretch of high school. It all started with visual basic, and I
@@ -64,15 +64,16 @@ export default function Home() {
               <p>
                 I kicked off my career as a backend engineer, relishing the
                 intricacies of server-side magic. Yet, as any seasoned chef
-                knows, a delightful dish is not just about the recipe—it's also
-                about the presentation. So, I ventured into frontend realms,
-                mastering both the art of design and the craft of development.
+                knows, a delightful dish is not just about the recipe—it&apos;s
+                also about the presentation. So, I ventured into frontend
+                realms, mastering both the art of design and the craft of
+                development.
               </p>
               <p>
-                Presently, I'm dancing in the freelance arena as a full-stack
-                sorcerer, conjuring digital wonders for clients on UpWork. Join
-                me on this coding adventure, where we turn ideas into
-                interactive experiences!
+                Presently, I&apos;m dancing in the freelance arena as a
+                full-stack sorcerer, conjuring digital wonders for clients on
+                UpWork. Join me on this coding adventure, where we turn ideas
+                into interactive experiences!
               </p>
               <p>Here are some of the technologies I have been working with:</p>
               <div className="flex gap-12 pb-4 lg:pb-0">
@@ -144,7 +145,7 @@ export default function Home() {
                 03.
               </span>
               <span className="text-light-100 capitalize">
-                some of the things i've built
+                some of the things i&apos;ve built
               </span>
             </h1>
             <hr className="lg:bg-light-300 lg:w-64" />

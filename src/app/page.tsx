@@ -126,7 +126,7 @@ export default function Home() {
                     02.
                   </span>
                   <span className="text-light-100 capitalize">
-                    where i've worked
+                    where i&apos;ve worked
                   </span>
                 </h2>
                 <hr className="lg:bg-light-300 lg:w-64" />

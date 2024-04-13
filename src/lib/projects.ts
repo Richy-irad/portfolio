@@ -20,20 +20,20 @@ export const projects = [
   {
     name: "autism lifestyle",
     description:
-      "Autism lifestyle website meant to showcase services available to parents with kids with autism",
+      "An autism lifestyle website crafted using TypeScript, Next.js, Tailwind CSS, and Sanity.io. Providing tailored services for parents navigating autism challenges.",
 
     imageUrl: "/autism-lifestyle-thumbnail.png",
     year: 2023,
-    stack: ["next.js", "tailwind CSS", "sanity.io"],
+    stack: ["TypeScript", "next.js", "tailwind CSS", "sanity.io"],
     link: "www.autismlifestyle.org",
   },
   {
     name: "managed wellness center",
     description:
-      "managed wellness center offers psychologist services. It leverages the flexibility of Next.js and Sanity.io for content management.",
+      "Managed Wellness Center provides counseling and capacity building services. The website harnesses the power of TypeScript, Tailwind CSS, Next.js, and Sanity.io for seamless content management and user experience.",
     imageUrl: "/managed-wellness-thumbnail.png",
     year: 2023,
-    stack: ["next.js", "tailwind CSS", "sanity.io"],
+    stack: ["TypeScript", "next.js", "tailwind CSS", "sanity.io"],
     link: "www.managedwellness.fit",
   },
   {

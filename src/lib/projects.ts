@@ -6,7 +6,7 @@ export const projects = [
     imageUrl: "/guide-limited-thumbnail.png",
     year: 2023,
     stack: ["django", "JavaScript", "tailwind CSS", "django channels"],
-    link: "www.guide-limited.com",
+    link: "https://www.guide-limited.com",
   },
   {
     name: "kicstoms applications",
@@ -15,26 +15,26 @@ export const projects = [
     imageUrl: "/kicstoms-thumbnail.png",
     year: 2022,
     stack: ["django", "django rest framework", "reactJs", "redux", "algolia"],
-    link: "www.kicstoms.com",
+    link: "https://www.kicstoms.com",
   },
   {
     name: "autism lifestyle",
     description:
-      "Autism lifestyle website meant to showcase services available to parents with kids with autism",
+      "An autism lifestyle website crafted using TypeScript, Next.js, Tailwind CSS, and Sanity.io. Providing tailored services for parents navigating autism challenges.",
 
     imageUrl: "/autism-lifestyle-thumbnail.png",
     year: 2023,
-    stack: ["next.js", "tailwind CSS", "sanity.io"],
-    link: "www.autismlifestyle.org",
+    stack: ["TypeScript", "next.js", "tailwind CSS", "sanity.io"],
+    link: "https://www.autismlifestyle.org",
   },
   {
     name: "managed wellness center",
     description:
-      "managed wellness center offers psychologist services. It leverages the flexibility of Next.js and Sanity.io for content management.",
+      "Managed Wellness Center provides counseling and capacity building services. The website harnesses the power of TypeScript, Tailwind CSS, Next.js, and Sanity.io for seamless content management and user experience.",
     imageUrl: "/managed-wellness-thumbnail.png",
     year: 2023,
-    stack: ["next.js", "tailwind CSS", "sanity.io"],
-    link: "www.managedwellness.fit",
+    stack: ["TypeScript", "next.js", "tailwind CSS", "sanity.io"],
+    link: "https://www.managedwellness.fit",
   },
   {
     name: "richard iradukunda",
@@ -42,7 +42,7 @@ export const projects = [
     imageUrl: "/portfolio-thumbnail.jpg",
     year: 2024,
     stack: ["next.js", "tailwind CSS"],
-    link: "www.richardiradukunda.com",
+    link: "https://www.richardiradukunda.com",
   },
   {
     name: "uniplat",

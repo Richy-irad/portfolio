@@ -9,7 +9,7 @@ export default function ProjectsList() {
       {projectsShowcase.map((project, index) => (
         <div
           key={index}
-          className="flex flex-col lg:flex-row gap-5 items-start w-full p-4 lg:p-0 rounded-lg lg:rounded-none bg-background-200 lg:bg-none"
+          className="flex flex-col lg:flex-row gap-5 items-start w-full p-4 lg:p-0 rounded-lg lg:rounded-none bg-background-200 lg:bg-transparent"
         >
           {index % 2 === 0 ? (
             <>

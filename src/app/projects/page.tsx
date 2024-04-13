@@ -46,14 +46,14 @@ export default function Projects() {
               </td>
               <td className="text-start py-4 group-hover:background-200">
                 {project.link && (
-                  <Link
+                  <a
                     target="_blank"
                     href={project.link}
                     className="flex gap-2 items-center hover:text-foreground"
                   >
-                    <span className="hidden lg:flex">{project.link}</span>
+                    <span className="hidden lg:flex">{project.name}</span>
                     <ArrowSquareOut size={20} />
-                  </Link>
+                  </a>
                 )}
               </td>
             </tr>

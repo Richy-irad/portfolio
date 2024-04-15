@@ -9,7 +9,7 @@ export const projects = [
     link: "https://www.guide-limited.com",
   },
   {
-    name: "kicstoms applications",
+    name: "Kicstoms Applications",
     description:
       "kicstoms applications that are meant for business of selling sneakers. Kicstoms offers 2 applications. An ecommerce platform for buying sneakers, and a Seller central application for sellers.",
     imageUrl: "/kicstoms-thumbnail.png",
@@ -18,7 +18,7 @@ export const projects = [
     link: "https://www.kicstoms.com",
   },
   {
-    name: "autism lifestyle",
+    name: "Autism Lifestyle",
     description:
       "An autism lifestyle website crafted using TypeScript, Next.js, Tailwind CSS, and Sanity.io. Providing tailored services for parents navigating autism challenges.",
 
@@ -28,7 +28,7 @@ export const projects = [
     link: "https://www.autismlifestyle.org",
   },
   {
-    name: "managed wellness center",
+    name: "Managed Wellness Center",
     description:
       "Managed Wellness Center provides counseling and capacity building services. The website harnesses the power of TypeScript, Tailwind CSS, Next.js, and Sanity.io for seamless content management and user experience.",
     imageUrl: "/managed-wellness-thumbnail.png",
@@ -37,7 +37,7 @@ export const projects = [
     link: "https://www.managedwellness.fit",
   },
   {
-    name: "richard iradukunda",
+    name: "Richard Iradukunda",
     description: "This is my portofolio site",
     imageUrl: "/portfolio-thumbnail.jpg",
     year: 2024,
@@ -45,7 +45,7 @@ export const projects = [
     link: "https://www.richardiradukunda.com",
   },
   {
-    name: "uniplat",
+    name: "Uniplat",
     description:
       "UniPlat is a platform for university students to find opportunities past college education, as well as be able to earn a living by providing tutoring to those in need",
     imageUrl: "/uniplat-thumbnail.png",

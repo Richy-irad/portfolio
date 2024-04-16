@@ -50,7 +50,7 @@ export default function Navbar() {
           <Bars2Icon className="w-8 h-8 text-foreground" />
         </Popover.Button>
         <Popover.Overlay className="fixed inset-0" />
-        <Popover.Panel className="fixed left-0 top-0 w-full md:w-96 h-screen z-10 flex flex-col gap-6 bg-dark-100 p-10">
+        <Popover.Panel className="fixed left-0 top-0 w-full md:w-96 h-screen z-10 flex flex-col gap-6 bg-background-100 p-10">
           {({ close }) => (
             <>
               {/* close button */}

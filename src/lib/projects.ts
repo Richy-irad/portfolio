@@ -18,16 +18,6 @@ export const projects = [
     link: "https://www.kicstoms.com",
   },
   {
-    name: "Autism Lifestyle",
-    description:
-      "An autism lifestyle website crafted using TypeScript, Next.js, Tailwind CSS, and Sanity.io. Providing tailored services for parents navigating autism challenges.",
-
-    imageUrl: "/autism-lifestyle-thumbnail.png",
-    year: 2023,
-    stack: ["TypeScript", "next.js", "tailwind CSS", "sanity.io"],
-    link: "https://www.autismlifestyle.org",
-  },
-  {
     name: "Managed Wellness Center",
     description:
       "Managed Wellness Center provides counseling and capacity building services. The website harnesses the power of TypeScript, Tailwind CSS, Next.js, and Sanity.io for seamless content management and user experience.",
@@ -38,7 +28,8 @@ export const projects = [
   },
   {
     name: "Richard Iradukunda",
-    description: "This is my portofolio site",
+    description:
+      "My portfolio site, developed using Next.js, TypeScript, and TailwindCSS, showcases my expertise in full-stack web development. It features a sleek, responsive design and highlights my skills, projects, and professional journey, offering visitors a seamless and engaging experience.",
     imageUrl: "/portfolio-thumbnail.jpg",
     year: 2024,
     stack: ["next.js", "tailwind CSS"],

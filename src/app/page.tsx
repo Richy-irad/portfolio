@@ -90,6 +90,18 @@ export default function Home() {
                     <ChevronRightIcon className="w-3 h-3 text-foreground" />
                     ReactJS 17+
                   </div>
+                  <div className="flex gap-3 items-center">
+                    <ChevronRightIcon className="w-3 h-3 text-foreground" />
+                    PostgreSQL
+                  </div>
+                  <div className="flex gap-3 items-center">
+                    <ChevronRightIcon className="w-3 h-3 text-foreground" />
+                    Git
+                  </div>
+                  <div className="flex gap-3 items-center">
+                    <ChevronRightIcon className="w-3 h-3 text-foreground" />
+                    AWS
+                  </div>
                 </div>
                 <div className="flex flex-col gap-3">
                   <div className="flex gap-3 items-center">
@@ -103,6 +115,18 @@ export default function Home() {
                   <div className="flex gap-3 items-center">
                     <ChevronRightIcon className="w-3 h-3 text-foreground" />
                     Next.js
+                  </div>
+                  <div className="flex gap-3 items-center">
+                    <ChevronRightIcon className="w-3 h-3 text-foreground" />
+                    MongoDB
+                  </div>
+                  <div className="flex gap-3 items-center">
+                    <ChevronRightIcon className="w-3 h-3 text-foreground" />
+                    Docker
+                  </div>
+                  <div className="flex gap-3 items-center">
+                    <ChevronRightIcon className="w-3 h-3 text-foreground" />
+                    GCP
                   </div>
                 </div>
               </div>

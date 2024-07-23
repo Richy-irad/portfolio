@@ -28,7 +28,7 @@ export default function Home() {
             </div>
             <p className="w-full lg:w-1/2">
               As a seasoned Full Stack Web Developer, I, a digital nomad
-              currently residing in Montreal, Canada, bring over four years of
+              currently residing in Montreal, Canada, bring over 5 years of
               expertise in web app development. I am committed to empowering
               individuals and businesses by creating impactful platforms,
               applications, and sites that enhance customer value and contribute

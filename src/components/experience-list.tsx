@@ -7,10 +7,24 @@ import clsx from "clsx";
 
 const experiences = [
   {
+    company: "Réno Dépôt Vaudreuil",
+    role: "Préposé de Service",
+    start: "apr 2024",
+    end: "PRESENT",
+    duties: [
+      " Assist customers in locating products and answer their inquiries.",
+      "Restock shelves and organize store environments.",
+      "Help manage inventory by receiving and unpacking deliveries.",
+      "Setup and refresh product displays and promotional setups.",
+      "Handle customer returns and exchanges efficiently.",
+      "Collaborate with team members to ensure smooth store operations.",
+    ],
+  },
+  {
     company: "kicstoms sneakers ltd",
     role: "lead engineer",
     start: "jun 2020",
-    end: "oct 2023",
+    end: "PRESENT",
     duties: [
       "Conceived and crafted visually appealing, user-centric Kicstoms web applications",
       "Translated design blueprints into functional websites with seamless interactivity",

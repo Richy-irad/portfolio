@@ -5,7 +5,13 @@ export const projects = [
       "An Information Management System that was designed to track and manage organization resources and members information. It has a Content Management System and a Chat application.",
     imageUrl: "/guide-limited-thumbnail.png",
     year: 2023,
-    stack: ["django", "JavaScript", "tailwind CSS", "django channels"],
+    stack: [
+      "django",
+      "JavaScript",
+      "tailwind CSS",
+      "django channels",
+      "websockets",
+    ],
     link: "https://www.guide-limited.com",
   },
   {
@@ -18,12 +24,30 @@ export const projects = [
     link: "https://www.kicstoms.com",
   },
   {
+    name: "NexGen Agency Website",
+    description:
+      "NexGen Agency, a creative firm specializing in photography, videography, and content creation. This sleek one-page site highlights their mission to boost businesses' online presence with fresh, trend-forward ideas, offering an engaging and streamlined user experience.",
+    imageUrl: "/nexgen-agency-thumbnail.png",
+    year: 2024,
+    stack: ["ReactJs", "TypeScript", "next.js", "tailwind CSS"],
+    link: "https://www.nexgenagency.ca",
+  },
+  {
+    name: "Grosor Inc. Website",
+    description:
+      " Grosor Inc. is a General Construction Contractor. Their website showcases their strengths, services, and contact information. Built with ReactJS, Next.js, TypeScript, and Tailwind CSS, the site is responsive, fast-loading, and hosted on Vercel.",
+    imageUrl: "/grosor-inc-thumbnail.png",
+    year: 2024,
+    stack: ["ReactJs", "TypeScript", "next.js", "tailwind CSS"],
+    link: "https://www.grosorinc.ca",
+  },
+  {
     name: "Managed Wellness Center",
     description:
       "Managed Wellness Center provides counseling and capacity building services. The website harnesses the power of TypeScript, Tailwind CSS, Next.js, and Sanity.io for seamless content management and user experience.",
     imageUrl: "/managed-wellness-thumbnail.png",
     year: 2023,
-    stack: ["TypeScript", "next.js", "tailwind CSS", "sanity.io"],
+    stack: ["ReactJs", "TypeScript", "next.js", "tailwind CSS", "sanity.io"],
     link: "https://www.managedwellness.fit",
   },
   {
@@ -32,7 +56,7 @@ export const projects = [
       "My portfolio site, developed using Next.js, TypeScript, and TailwindCSS, showcases my expertise in full-stack web development. It features a sleek, responsive design and highlights my skills, projects, and professional journey, offering visitors a seamless and engaging experience.",
     imageUrl: "/portfolio-thumbnail.jpg",
     year: 2024,
-    stack: ["next.js", "tailwind CSS"],
+    stack: ["ReactJs", "Typescript", "next.js", "tailwind CSS"],
     link: "https://www.richardiradukunda.com",
   },
   {

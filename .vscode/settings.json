@@ -1,4 +1,10 @@
 {
     "editor.tabSize": 2,
-    "editor.wrappingStrategy": "simple"
+    "editor.wrappingStrategy": "simple",
+    "cSpell.words": [
+        "ARSO",
+        "golive",
+        "Kicstoms",
+        "Pytest"
+    ]
 }

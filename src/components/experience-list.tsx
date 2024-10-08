@@ -7,31 +7,18 @@ import clsx from "clsx";
 
 const experiences = [
   {
-    company: "Réno Dépôt Vaudreuil",
-    role: "Préposé de Service",
-    start: "apr 2024",
-    end: "PRESENT",
-    duties: [
-      " Assist customers in locating products and answer their inquiries.",
-      "Restock shelves and organize store environments.",
-      "Help manage inventory by receiving and unpacking deliveries.",
-      "Setup and refresh product displays and promotional setups.",
-      "Handle customer returns and exchanges efficiently.",
-      "Collaborate with team members to ensure smooth store operations.",
-    ],
-  },
-  {
     company: "kicstoms sneakers ltd",
     role: "lead engineer",
     start: "jun 2020",
     end: "PRESENT",
     duties: [
-      "Conceived and crafted visually appealing, user-centric Kicstoms web applications",
-      "Translated design blueprints into functional websites with seamless interactivity",
-      "Executed comprehensive testing procedures to validate performance, security, and responsiveness of the web applications",
-      "Undertook routine maintenance tasks and promptly addressed any technical issues for sustained website functionality",
-      "Implemented updates and enhancements to Kicstoms web applications in response to evolving requirements",
-      "Focused on optimizing website features to ensure an enhanced and technically proficient user experience",
+      "Implemented Algolia for e-commerce search functionality.",
+      "Designed Kicstoms web applications using Figma.",
+      "Led a team to conceive and craft Kicstoms web applications using modern full-stack technologies: Next.js, ReactJS, TypeScript, CSS3, Python, Django, Django Rest Framework, and PostgreSQL API for the backend.",
+      "Automated testing to ensure the quality of applications and validate the performance, security, and responsiveness of web applications using Jest, Cypress, Pytest, and Selenium.",
+      "Automated deployment and ensured continuous integration using Docker and Kubernetes on Heroku and AWS.",
+      "Utilized Git and GitHub for collaboration.",
+      "Utilized Jira and GitHub Projects for project management.",
     ],
   },
   {
@@ -40,12 +27,10 @@ const experiences = [
     start: "feb 2020",
     end: "may 2020",
     duties: [
-      "Developed and oversaw WordPress web applications for clients, ensuring they stayed online, content remained current, and performance stayed reliable",
-      "Crafted and maintained WordPress-based web applications, guaranteeing consistent uptime, regular content updates, and optimal performance for clients",
-      "Specialized in creating and managing WordPress web applications, with a focus on maintaining uptime, updating content, and ensuring reliable performance",
-      "Took charge of designing and handling WordPress web apps, prioritizing uptime, content freshness, and steady performance for clients",
-      "Managed the entire lifecycle of WordPress web applications, emphasizing continuous uptime, timely content updates, and reliable performance",
-      "Created and maintained WordPress-based web applications for clients, with a dedicated commitment to sustained uptime, content currency, and dependable performance",
+      "Contributed to design concepts through Figma.",
+      "Integrated content management systems such as Sanity, Wagtail, and WordPress to ensure content updates for clients’ websites.",
+      "Collaborated with team members to develop custom CMS solutions based on clients's needs, using Python and Django.",
+      "Collaborated with team members to design and implement visually appealing web applications, utilizing modern frontend technologies such as React.js, TypeScript, and Bootstrap CSS.",
     ],
   },
   {
@@ -54,12 +39,9 @@ const experiences = [
     start: "sep 2019",
     end: "dec 2019",
     duties: [
-      "Oversaw and managed a range of ICT equipment within the ARSO DISNET and IT framework",
-      "Administered servers and workstations to ensure seamless functionality and performance",
-      "Coordinated and executed updates for IT software, ensuring systems were current and secure",
-      "Played a pivotal role in maintaining and troubleshooting various components of the IT infrastructure",
-      "Facilitated website updates to keep content relevant and ensure optimal user experience",
-      "Collaborated with teams to implement IT solutions and enhance overall efficiency within the organization",
+      "Collaborated with the team to maintain the organization’s website and web resources using Git.",
+      "Developed features for the organization’s website in Node.js.",
+      "Implemented bug tracking and reporting procedures through Jira and applied fixes.",
     ],
   },
 ];

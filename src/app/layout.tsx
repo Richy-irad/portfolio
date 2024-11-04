@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="!scroll-smooth snap-y">
+    <html lang="en" className="!scroll-smooth">
       <body className={`bg-background-100 text-light-300 ${inter.className}`}>
         <Navbar />
         <main className="mx-5 md:mx-10 lg:mx-20 xl:mx-40 2xl:mx-96 h-fit pb-24 mt-20 lg:mt-24">

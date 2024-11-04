@@ -13,8 +13,8 @@ export default function Home() {
   return (
     <>
       {/* the hero section */}
-      {/* occupies min-device heigt */}
-      <div className="min-h-screen h-full flex flex-col items-center justify-center snap-center">
+      {/* occupies min-device height */}
+      <div className="min-h-screen h-full flex flex-col items-center justify-center">
         <div className="flex flex-col gap-12 w-full items-start">
           <div className="flex flex-col gap-5">
             <h6 className="text-foreground">Hi, my name is</h6>
@@ -41,7 +41,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div id="about" className="scroll-pt-8 snap-center">
+      <div id="about" className="scroll-pt-8">
         <div className="flex flex-col gap-8 lg:gap-12 items-start">
           <div className="flex gap-4 items-center w-1/2">
             <h1 className="text-2xl lg:text-[40px] font-bold space-x-3 shrink-0">
@@ -68,12 +68,6 @@ export default function Home() {
                 also about the presentation. So, I ventured into frontend
                 realms, mastering both the art of design and the craft of
                 development.
-              </p>
-              <p>
-                Presently, I&apos;m dancing in the freelance arena as a
-                full-stack sorcerer, conjuring digital wonders for clients on
-                UpWork. Join me on this coding adventure, where we turn ideas
-                into interactive experiences!
               </p>
               <p>Here are some of the technologies I have been working with:</p>
               <div className="flex gap-12 pb-4 lg:pb-0">
@@ -180,7 +174,7 @@ export default function Home() {
           </div>
         </div>
         {/* services */}
-        <div id="services" className="w-full snap-center">
+        <div id="services" className="w-full">
           <div id="work" className="flex flex-col gap-12 w-full">
             <div className="flex gap-4 items-center w-full">
               <h1 className="text-2xl lg:text-[40px] font-bold space-x-3 shrink-0">

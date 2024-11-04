@@ -7,10 +7,26 @@ import clsx from "clsx";
 
 const experiences = [
   {
-    company: "kicstoms sneakers ltd",
-    role: "lead engineer",
-    start: "jun 2020",
+    company: "HABSNS Inc.",
+    role: "Top Talent Software Engineer",
+    start: "apr 2024",
     end: "PRESENT",
+    duties: [
+      "Developed and deployed a fintech application using a full stack of Python, Django, React.js, and PostgreSQL.",
+      "Designed and implemented user interfaces with React.js, Next.js, and Bootstrap, enhancing UX and visual appeal.",
+      "Engineered RESTful APIs using Django Rest Framework, optimizing system performance and scalability.",
+      "Led database design and optimization efforts, resulting in improved data handling and reduced query time.",
+      "Integrated WhatsApp API to enhance user communication and engagement within the application.",
+      "Streamlined containerization and deployment using Docker and Git, ensuring consistent builds and version control.",
+      "Conducted end-to-end testing to ensure product reliability and meet quality standards.",
+      "Collaborated with cross-functional teams to align product functionality with business objectives.",
+    ],
+  },
+  {
+    company: "kicstoms sneakers ltd",
+    role: "senior fullstack software engineer",
+    start: "jun 2020",
+    end: "apr 2024",
     duties: [
       "Implemented Algolia for e-commerce search functionality.",
       "Designed Kicstoms web applications using Figma.",
@@ -23,7 +39,7 @@ const experiences = [
   },
   {
     company: "golive interactive ltd",
-    role: "web developer",
+    role: "fullstack software engineer",
     start: "feb 2020",
     end: "may 2020",
     duties: [
@@ -35,7 +51,7 @@ const experiences = [
   },
   {
     company: "african organization for standardization (ARSO)",
-    role: "IT intern",
+    role: "software engineer intern",
     start: "sep 2019",
     end: "dec 2019",
     duties: [
@@ -56,7 +72,7 @@ export default function Experience() {
               {({ selected }) => (
                 <button
                   className={clsx(
-                    "capitalize py-3.5 px-2 lg:px-7 lg:py-4 hover:bg-background-200 outline-none text-start w-full",
+                    "capitalize py-3.5 px-2 lg:px-7 lg:py-4 hover:bg-background-200 outline-none text-start w-full transition-all duration-500 ease-in-out",
                     {
                       "text-foreground border-b-4  border-l-0 lg:border-b-0 lg:border-l-4 border-foreground":
                         selected,
@@ -72,8 +88,8 @@ export default function Experience() {
           ))}
         </Tab.List>
         <Tab.Panels className="basis-full lg:basis-3/4 shrink-0">
-          {experiences.map((experience, index) => (
-            <Tab.Panel key={index}>
+          {experiences.map((experience) => (
+            <Tab.Panel key={experience.company}>
               <div className="flex flex-col gap-6">
                 <div className="flex flex-col gap-2">
                   <h3 className="text-xl lg:text-[28px] capitalize">

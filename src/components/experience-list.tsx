@@ -10,7 +10,7 @@ const experiences = [
     company: "HABSNS Inc.",
     role: "Top Talent Software Engineer",
     start: "apr 2024",
-    end: "PRESENT",
+    end: "mar 2025",
     duties: [
       "Develop and deploy a fintech application using a full stack of Python, Django, React.js, and PostgreSQL.",
       "Design and implement user interfaces with React.js, Next.js, and Bootstrap, enhancing UX and visual appeal.",
@@ -24,7 +24,7 @@ const experiences = [
   },
   {
     company: "kicstoms sneakers ltd",
-    role: "senior fullstack software engineer",
+    role: "Co-Founder & Lead Full stack engineer",
     start: "jun 2020",
     end: "apr 2024",
     duties: [
